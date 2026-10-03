@@ -12,6 +12,7 @@ The app itself is not open source. This repository covers only the libraries it 
 
 | App version | Version code | Source |
 |---|---|---|
+| 0.5.0 (shown as 0.5.0-testers in the testing build) | 5 | [Release v0.5.0](https://github.com/ellipseapps/ellipse-converter-source/releases/tag/v0.5.0) |
 | 0.4.0 (shown as 0.4.0-testers in the testing build) | 4 | [Release v0.4.0](https://github.com/ellipseapps/ellipse-converter-source/releases/tag/v0.4.0) |
 | 0.3.0 (shown as 0.3.0-testers in the testing build) | 3 | [Release v0.3.0](https://github.com/ellipseapps/ellipse-converter-source/releases/tag/v0.3.0) |
 | 0.2.0 (shown as 0.2.0-testers in the testing build) | 2 | [Release v0.2.0](https://github.com/ellipseapps/ellipse-converter-source/releases/tag/v0.2.0) |
