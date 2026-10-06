@@ -12,6 +12,7 @@ The app itself is not open source. This repository covers only the libraries it 
 
 | App version | Version code | Source |
 |---|---|---|
+| 0.7.0 (shown as 0.7.0-testers in the testing build) | 7 | [Release v0.7.0](https://github.com/ellipseapps/ellipse-converter-source/releases/tag/v0.7.0) |
 | 0.6.0 (shown as 0.6.0-testers in the testing build) | 6 | [Release v0.6.0](https://github.com/ellipseapps/ellipse-converter-source/releases/tag/v0.6.0) |
 | 0.5.0 (shown as 0.5.0-testers in the testing build) | 5 | [Release v0.5.0](https://github.com/ellipseapps/ellipse-converter-source/releases/tag/v0.5.0) |
 | 0.4.0 (shown as 0.4.0-testers in the testing build) | 4 | [Release v0.4.0](https://github.com/ellipseapps/ellipse-converter-source/releases/tag/v0.4.0) |
@@ -28,6 +29,10 @@ Each release holds:
 | `rebuild-support.tar.xz` | The build scripts, the lock files that pin every source revision and build flag, the Kvazaar patch and the list of packaged notices. |
 | `build-records.tar.xz` | The build flags, source revisions and checksums of the built libraries, and diffs of every difference between the sources used and their upstream revisions. |
 | `SHA256SUMS.txt` | Checksums of the files above. |
+
+When a version's libraries are unchanged, its release links to the earlier release's
+`native-corresponding-source.tar.gz`, the same file byte for byte, instead of attaching a second
+copy; its notes give the link and the checksum.
 
 ## Changes we made
 
